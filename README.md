@@ -16,7 +16,7 @@ This is a Python-based password strength checker that evaluates the security lev
 
 ##  How to Run
 1. Clone the repository:
-   git clone https://github.com/your-username/password-strength-checker.git
+   git clone https://github.com/Himaja-T/password-strength-checker.git
 
 2. Navigate to the folder:
    cd password-strength-checker
