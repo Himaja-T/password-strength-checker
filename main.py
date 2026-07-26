@@ -13,11 +13,11 @@ def check_password_strength(password):
         strength += 1
 
     if strength == 4:
-        return "Strong 🔐"
+        return "Strong"
     elif strength == 3:
-        return "Medium ⚠️"
+        return "Medium"
     else:
-        return "Weak ❌"
+        return "Weak"
 
 password = input("Enter password: ")
 print("Strength:", check_password_strength(password))
