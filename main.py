@@ -1,4 +1,4 @@
-import regex
+import re
 
 def check_password_strength(password):
     strength = 0
