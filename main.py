@@ -1,9 +1,9 @@
 import re
 
-def check_password_strength(password):
+def check_password_strength(pswd):
     strength = 0
 
-    if len(password) >= 8:
+    if len(pswd) >= 8:
         strength += 1
     if re.search("[a-z]", password) and re.search("[A-Z]", password):
         strength += 1
